@@ -1,4 +1,5 @@
 let arr = [12, 22, 22, 33];
+let arr1= [12, 22, 22, -33];
 
 function sumArray(arr) {
     let output = 0;
@@ -23,5 +24,19 @@ function sumArrayusingwhileloop(arr) {
 }
 
 
-let b = sumArray(arr);
+let b = sumArray(arr1);
 console.log('b :>> ', b);
+
+
+
+
+
+let sequence = [1, 2, 3, 4];
+
+function aaa(n) {
+    let a = n[n.length - 1];
+    return (a * (a + 1)) / 2;
+}
+
+let call = aaa(sequence);
+console.log('call :>> ', call);
