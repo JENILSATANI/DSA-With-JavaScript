@@ -1,4 +1,4 @@
-let arr = [1, 4, 5, 6, 7, 8]
+let arr = [1, 4, 5,5, 6, 7, 8,8]
 
 function Largest(arr) {
 
